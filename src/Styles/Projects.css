@@ -1,0 +1,110 @@
+.projects-div {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 6em 4em 6em 3em
+}
+.margin-50 {
+    margin: 0px 50px;
+}
+.left-division {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-projects-bg {
+    position: relative;
+    background-image: url('../assets/cover-images/min_circle.png');
+    max-width: 560px;
+}
+.project-images {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    transform: translatey(0);
+    box-shadow: 0 5px 15px #9b9b9b99;
+}
+
+.project-images[class*="image-0"] {
+    top: 26px;
+    left: 314px;
+    width: 194px;
+}
+.project-images[class*="image-1"] {
+    top: 298px;
+    left: 15px;
+    width: 180px;
+}
+.project-images[class*="image-2"] {
+    top: 226px;
+    left: 391px;
+    width: 127px;
+}
+.project-images[class*="image-3"] {
+    top: 357px;
+    left: 321px;
+    width: 179px;
+}
+.project-images[class*="image-4"] {
+    top: 191px;
+    left: 183px;
+    width: 202px;
+}
+.project-images[class*="image-5"] {
+    top: 401px;
+    left: 187px;
+    width: 127px;
+}
+.project-images[class*="image-6"] {
+    top: 129px;
+    left: 39px;
+    width: 154px;
+}
+.project-images[class*="image-7"] {
+    top: 55px;
+    left: 180px;
+    width: 122px;
+}
+.project-images[class*="image-"]:hover {
+    transform: scale(1.15);
+    box-shadow: 0 5px 15px #58585899;
+    z-index: 5;
+}
+
+.right-division {
+    margin-left: 5%;
+    position: relative;
+    width: 100%;
+}
+.featured-text {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #101010;
+    opacity: .15;
+    line-height: .9;
+}
+.project-desc-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    height: 300px;
+    position: relative;
+}
+.project-heading {
+    font-size: 50px;
+    font-weight: 500;
+    transition: all .2s;
+    letter-spacing: -2px;
+}
+.project-desc {
+    color: #2c2c2c;
+    font-size: 22px;
+    letter-spacing: -.14px;
+    line-height: 1.2;
+}
+

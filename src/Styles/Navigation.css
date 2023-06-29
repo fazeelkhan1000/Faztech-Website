@@ -1,0 +1,33 @@
+.navigation {
+    max-height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 10px 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+.navigation-menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+}
+.navigation-list-item {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.logo-div {
+    width: 25%;
+    display: flex;
+}
+.contact-us-div {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-us-btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #343434;
+    color: white;
+}

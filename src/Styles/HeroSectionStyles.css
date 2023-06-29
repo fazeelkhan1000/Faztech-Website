@@ -1,0 +1,71 @@
+.main-flex-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.flex-div {
+ display: flex;
+ justify-content: center;
+}
+.main-tag-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #455963;
+}
+.services-span {
+  max-width: 800px;
+  font-size: 20px;
+}
+.main-tag {
+  font-family: serif ;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.main-hero-section {
+  width: 100%;
+  max-width: 1500px;
+  height: 300px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-badges {
+  transition: all 0.5s ease;
+  height: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #455963;
+  position: relative;
+  top: 0;
+}
+.service-badges[class*="badge-"]:hover {
+  transform: translateY(-10px);
+  color: white;
+}
+.service-badges[class*="badge-0"]:hover {
+  background-color: #ffd404;
+}
+.service-badges[class*="badge-1"]:hover {
+  background-color: #68e4bc;
+}
+.service-badges[class*="badge-2"]:hover {
+  background-color: #ff6c6c;
+}
+.service-badges[class*="badge-3"]:hover {
+  background-color: #4884f4;
+}
+.service-badges[class*="badge-4"]:hover {
+  background-color: #785cd4;
+}
+.service-text {
+  font-size: 12px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: math;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.12em;
+}
