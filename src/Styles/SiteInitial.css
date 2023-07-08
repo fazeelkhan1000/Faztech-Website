@@ -1,0 +1,55 @@
+.main-banner {
+    background-image: url('../assets/cover-images/Banner.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.w-1250 {
+    width: 1250px;
+}
+.w-50 {
+    width: 50%;
+}
+.disp-flex {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    align-items: flex-end;
+}
+.intro-div {
+    color: white;
+    width: 240px;
+    height: 130px;
+    top: 0;
+    right: 100px;
+    position: absolute;
+    background-color: #343434;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 40px;
+
+}
+.intro-div:after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    width: 0;
+    left: 20px;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 35px solid #343434;
+}
+.user-0,
+.user-1,
+.user-2 {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.user-0.active,
+.user-1.active,
+.user-2.active {
+    opacity: 1;
+}
+

@@ -20,7 +20,7 @@ export const ProjectsSection = () => {
     <>
     <section>
         <div className='projects-div'>
-            <div className='flex-div margin-50'>
+            <div className='flex-div margin-50 mw-1250'>
                 <div className='left-division'>
                     <div className='main-projects-bg'>
                         <img width="560" src={circleImg} alt="circle-bg" />
@@ -34,7 +34,7 @@ export const ProjectsSection = () => {
                     </div>
                 </div>
                 <div className='right-division'>
-                    <span style={{textAlign: "right"}}><h1 className='featured-text'>FEATURED PROJECTS</h1></span>
+                    <span style={{textAlign: "right"}}><h1 className='featured-text'>Featured Projects</h1></span>
                     <div className='project-desc-div'>
                     <h2 className='project-heading'>
                         {projectTitle}

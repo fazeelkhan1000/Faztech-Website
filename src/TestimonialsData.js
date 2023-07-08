@@ -7,7 +7,7 @@ export default [
     {
       image: FAZTECH,
       testimonial: "Hey team, I am thankful for your contribution for the Needle project.  It wouldn't be possible to achieve the success without your efforts. We love you guys.",
-      ownerDesig: "CEO-FAZTECH",
+      ownerDesig: "Ceo-Faztech",
       owner: "Fazeel Asghar",
     },
     {

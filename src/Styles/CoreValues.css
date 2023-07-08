@@ -1,0 +1,77 @@
+.sect-padd {
+    padding: 50px 0px;
+}
+.core-heading {
+    margin: 50px 0px;
+}
+.values-card {
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 2;
+    padding: 10px;
+    color: white;
+    background-color: #ffd404;
+    opacity: 0;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    pointer-events: none;
+  }
+  
+  .content {
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .values-card:hover .overlay {
+    height: 100%;
+    opacity: 1;
+  }
+  
+  .values-card .overlay {
+    transition: height .75s ease, opacity 0.5s ease;
+  }
+  .values-card:not(:hover) .overlay {
+    height: 0%;
+    opacity: 0;
+    transition: height .75s ease, opacity 0.5s ease;
+  }
+  
+  /* Additional styles for your specific layout */
+  .flex-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .val-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .values-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
