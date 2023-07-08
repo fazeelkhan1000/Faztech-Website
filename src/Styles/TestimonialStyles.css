@@ -12,19 +12,17 @@
 
 .swiper-slide-next {
   transform: scale(1.5) !important;
+  z-index: 3;
 }
-.swiper {
-  overflow: inherit;
-}
+
 .circular-image {
   position: absolute;
   z-index: 2;
   top: 20px;
-  right: 280px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #343434;
+  background-color: #e3007f;
 }
 
 .inner-circle {

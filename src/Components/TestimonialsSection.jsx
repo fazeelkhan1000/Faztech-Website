@@ -49,7 +49,7 @@ export const TestimonialsSection = () => {
   };
 
   return (
-    <section style={{ padding: "100px 0px", backgroundColor: "#fac300" }}>
+    <section style={{ padding: "100px 0px", backgroundColor: "#333333" }}>
       <div className="main-testimonial-div">
         <Swiper
           ref={swiperRef}
@@ -64,7 +64,7 @@ export const TestimonialsSection = () => {
           onSlideChangeTransitionStart={handleSlideChangeTransitionStart}
         >
           {slides.map((slide, index) => (
-            <SwiperSlide key={index} >
+            <SwiperSlide style={{display: "flex", justifyContent: "center"}} key={index} >
                 <div className="circular-image">
                 <div className="inner-circle">
                   <img
